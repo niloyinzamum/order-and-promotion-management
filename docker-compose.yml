@@ -1,0 +1,12 @@
+version: '3'
+
+services:
+  nextjs-app:
+    image: inzamumniloy/order-and-promotion-management:latest
+    ports:
+      - "3000:3000"
+    environment:
+      - MONGODB_URI=${MONGODB_URI}
+      - MONGODB_DB=${MONGODB_DB}
+      - JWT_SECRET=${JWT_SECRET}
+    restart: always

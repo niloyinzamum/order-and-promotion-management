@@ -1,0 +1,89 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: #f9f9f9;
+    padding: 20px;
+}
+
+.form {
+    width: 100%;
+    max-width: 400px;
+    background: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    margin-bottom: 2.2rem;
+}
+
+.inputGroup {
+    margin-bottom: 1rem;
+}
+
+.inputGroup label {
+    display: block;
+    margin-bottom: 0.5rem;
+    font-weight: bold;
+    color: #555;
+}
+
+.inputGroup input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 1rem;
+}
+
+.button {
+    width: 100%;
+    padding: 10px;
+    background-color: #add8e6;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.button:hover {
+    background-color: #6d95a3;
+}
+
+.goBackButton {
+    margin-top: 10px; /* Add spacing above the Go Back button */
+    width: auto; /* Allow the button to size dynamically */
+    padding: 10px 20px; /* Adjust padding for consistency */
+    background-color: #add8e6; /* Keep the same color as other buttons */
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.goBackButton:hover {
+    background-color: #6d95a3;
+}
+
+.error {
+    color: red;
+    margin-bottom: 1rem;
+    font-size: 0.9rem;
+}
+
+.success {
+    color: green;
+    margin-bottom: 1rem;
+    font-size: 0.9rem;
+}
+
+.signintext {
+    color: rgb(0, 0, 0);
+    margin-bottom: 1rem;
+    font-weight: bold;
+}
