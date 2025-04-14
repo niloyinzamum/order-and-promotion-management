@@ -1,8 +1,25 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+## Project Description
+This is an Order and Promotion Management System built with ReactJS, Node.js,  and in nextjs eco system. It allows users to manage products, promotions, and orders dynamically. The system supports authentication, product enable/disable, promotion slabs, and detailed order calculations.
 
-## Getting Started
+## Quick Guide
+Sign Up: Create a new account using your email and password.
+Sign In: Log in with your credentials to access the system.
+Manage Products: Add, edit, enable/disable products. Disabled products won't appear in orders.
+Manage Promotions: Create/edit promotions with percentage, fixed, or weighted discounts.
+Create Orders: Add products to the cart, view discounts, and calculate totals dynamically.
 
-First, run the development server:
+
+
+```bash
+To Install the dependencies: 
+
+npm install 
+
+or, if you are using yarn run,
+yarn install
+```
+
+Run the development server:
 
 ```bash
 npm run dev
@@ -14,10 +31,8 @@ pnpm dev
 bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
-
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
-
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
-
-Use the docker command to download from docker Hub and run the image: 
+```bash
+Clone and Run docker image:
+docker pull inzamumniloy/order-and-promotion-management:latest
+docker run -p 3000:3000 inzamumniloy/order-and-promotion-management:latest
+```
